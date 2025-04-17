@@ -1,0 +1,40 @@
+<div style="max-width: 700px; margin: auto; text-align: center; font-size: 17px; line-height: 1.7; color: #ddd;">
+  <div style="font-size: 40px; margin-bottom: 10px;">🧩</div>
+  <h2 style="color: #f59f00;">Embed Tips for Your Website</h2>
+
+  <p>
+    Planning to embed your HTML tools, games, or GitHub Pages into a website? It's usually simple—but not everything works the way you'd expect.
+    Here's what new creators need to know about iframe behavior and embedding limits.
+  </p>
+
+  <h3 style="color: #51cf66;">✅ What Usually Works</h3>
+  <ul style="text-align: left; display: inline-block;">
+    <li>✅ Embedding a single GitHub Page directly into your site</li>
+    <li>✅ Internal links like <code>#section</code> within the embedded page</li>
+    <li>✅ Buttons or links that open in a new tab (<code>target="_blank"</code>)</li>
+  </ul>
+
+  <h3 style="color: #ff6b6b;">🚫 What Often Fails</h3>
+  <ul style="text-align: left; display: inline-block;">
+    <li>❌ Embedding a page that itself embeds another page (nested iframes get blocked)</li>
+    <li>❌ Trying to navigate between multiple GitHub Pages from inside the same embed</li>
+    <li>❌ Relying on <code>window.open()</code> inside an iframe—this may be blocked by the browser or the host</li>
+  </ul>
+
+  <h3 style="color: #339af0;">🛠 Tips for Smooth Embedding</h3>
+  <ul style="text-align: left; display: inline-block;">
+    <li>🔗 Use links that open in new tabs for transitions between pages</li>
+    <li>📦 Keep each project self-contained—one page per tool or feature</li>
+    <li>🧭 Provide navigation cues like “Back to Home” or “Try Another Tool”</li>
+    <li>🕸 Test embeds across browsers—you may get different results</li>
+  </ul>
+
+  <h3 style="color: #ae3ec9;">In Summary</h3>
+  <p>
+    One embed per frame is the most reliable rule. You can still link between projects or tools—but don’t expect everything to stay inside one box.
+  </p>
+
+  <p style="margin-top: 30px; font-style: italic; color: #aaa;">
+    Simple is strong. Let each project shine on its own.
+  </p>
+</div>
